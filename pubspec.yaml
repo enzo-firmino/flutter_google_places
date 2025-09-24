@@ -16,7 +16,7 @@ dependencies:
       url: https://github.com/VincentDR/google_maps_webservice.git
       ref: http-1.1.0
   http:
-  rxdart: ^0.27.7
+  rxdart: ^0.28.0
 
 dev_dependencies:
   flutter_test:
