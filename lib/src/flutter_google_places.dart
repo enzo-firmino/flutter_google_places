@@ -571,8 +571,10 @@ class PlacesAutocomplete {
     TextStyle? textStyle,
     ThemeData? themeData,
     TextStyle? resultTextStyle,
+    int debounce = 300, 
   }) {
     final autoCompleteWidget = PlacesAutocompleteWidget(
+      debounce: debounce,
       apiKey: apiKey,
       mode: mode,
       overlayBorderRadius: overlayBorderRadius,
